@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/gurmukhi-flashcards/static/css/main.e6c13ad2.css",
+    "main.js": "/gurmukhi-flashcards/static/js/main.03a53f9d.js",
+    "static/js/453.074b8b15.chunk.js": "/gurmukhi-flashcards/static/js/453.074b8b15.chunk.js",
+    "index.html": "/gurmukhi-flashcards/index.html",
+    "main.e6c13ad2.css.map": "/gurmukhi-flashcards/static/css/main.e6c13ad2.css.map",
+    "main.03a53f9d.js.map": "/gurmukhi-flashcards/static/js/main.03a53f9d.js.map",
+    "453.074b8b15.chunk.js.map": "/gurmukhi-flashcards/static/js/453.074b8b15.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.03a53f9d.js"
+  ]
+}
