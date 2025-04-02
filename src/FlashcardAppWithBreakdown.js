@@ -36,8 +36,8 @@ export default function FlashcardAppWithBreakdown() {
   }
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100vh', gap: '1rem', padding: '1rem' }}>
-      <div style={{ width: '100%', maxWidth: '500px', textAlign: 'center', border: '1px solid #ccc', borderRadius: '8px', padding: '2rem', boxShadow: '0 2px 8px rgba(0, 0, 0, 0.1)' }}>
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100vh', gap: '1rem' }}>
+      <div style={{ width: '80vw', maxWidth: '500px', textAlign: 'center', border: '1px solid #ccc', borderRadius: '8px', padding: '2rem', boxShadow: '0 2px 8px rgba(0, 0, 0, 0.1)' }}>
         <div style={{ fontSize: '2.5rem', marginBottom: '1rem', fontWeight: 'bold' }}>
           {vocab[index].gurmukhi}
         </div>
