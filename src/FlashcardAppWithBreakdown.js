@@ -108,7 +108,7 @@ export default function FlashcardApp() {
       </div>
 
       {/* Disclaimer */}
-      <div style={{ textAlign: 'center', fontSize: '0.875rem', color: '#666', padding: '0.5rem', backgroundColor: '#f9f9f9', borderTop: '1px solid #ddd' }}>
+      <div className="disclaimer" style={{ position: 'fixed', bottom: 0, left: 0, right: 0, textAlign: 'center', fontSize: '0.875rem', color: '#666', padding: '0.5rem', backgroundColor: '#f9f9f9', borderTop: '1px solid #ddd', zIndex: 11 }}>
         Disclaimer: These words were generated using AI and may contain errors.
       </div>
 
