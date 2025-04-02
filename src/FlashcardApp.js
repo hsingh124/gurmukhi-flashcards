@@ -6,7 +6,7 @@ export default function FlashcardApp() {
   const [showEnglish, setShowEnglish] = useState(false);
 
   useEffect(() => {
-    fetch('/gurmukhi_vocab_500.csv')
+    fetch(process.env.PUBLIC_URL + '/gurmukhi_vocab_500.csv')
       .then((response) => response.text())
       .then((data) => {
         const lines = data.trim().split('\n');
