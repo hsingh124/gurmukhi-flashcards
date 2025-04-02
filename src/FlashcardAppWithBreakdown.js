@@ -61,7 +61,7 @@ export default function FlashcardApp() {
           ))}
         </div>
 
-        <div style={{ flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '1rem', padding: '1rem' }}>
+        <div style={{ flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '1rem' }}>
           <div style={{ width: '80vw', maxWidth: '500px', textAlign: 'center', border: '1px solid #ccc', borderRadius: '8px', padding: '2rem', boxShadow: '0 2px 8px rgba(0, 0, 0, 0.1)' }}>
             <div style={{ fontSize: '2.5rem', marginBottom: '1rem', fontWeight: 'bold' }}>
               {vocab[index].gurmukhi}
@@ -88,7 +88,7 @@ export default function FlashcardApp() {
       </div>
 
       {/* Mobile responsive menu */}
-      <div className="mobile-menu" style={{ overflowX: 'auto', borderTop: '1px solid #ccc', padding: '0.5rem', whiteSpace: 'nowrap', position: 'fixed', bottom: 0, left: 0, right: 0, background: 'white', zIndex: 10 }}>
+      <div className="mobile-menu" style={{ overflowX: 'auto', borderTop: '1px solid #ccc', padding: '0.5rem', whiteSpace: 'nowrap', position: 'fixed', bottom: '50px', left: 0, right: 0, background: 'white', zIndex: 10 }}>
         {vocab.map((item, i) => (
           <span
             key={i}
@@ -107,8 +107,16 @@ export default function FlashcardApp() {
         ))}
       </div>
 
+      {/* Disclaimer */}
+      <div style={{ textAlign: 'center', fontSize: '0.875rem', color: '#666', padding: '0.5rem', backgroundColor: '#f9f9f9', borderTop: '1px solid #ddd' }}>
+        Disclaimer: These words were generated using AI and may contain errors.
+      </div>
+
       {/* Inline responsive style */}
       <style>{`
+        .mobile-menu {
+            display: none;
+        }
         @media (max-width: 820px) {
           .sidebar {
             display: none;
